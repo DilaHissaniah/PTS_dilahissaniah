@@ -7,9 +7,13 @@
     <title>Document</title>
 </head>
 <h1>pendaftaraan UKK SMK NU</h2> 
+<fieldset>
+
+    <legend>Data Diri:</legend>
     <tr>
         <td><label>Nama Lengkap</label></td>
         <td>:</td>
+        <td><input type="text" name="" id=""></td>
         <br></br>
     </tr>
         <td><label>Jenis kelamin</label></td>
@@ -19,12 +23,13 @@
         <br></br>
     </tr>
     <tr>
-        <td><label>jurusan</label></td>
-        <td>:</td>
-        <input type="radio" name="rekayasa_perangkat_lunak ">rekayasa_perangkat_lunak
-        <br></br>  
+        <label for="lname">Jurusan:</label>
+        <select name="" id="">
+            <option value="">Rekayasa Perangkat Lunak</option><br><br>
+        </select>  
     </tr>
     <tr> 
+        <br></br>
         <td><label>Alamat</label></td>
         <td>:</td>
         <td><textarea  name="alamat" id="" cols="30" rows="3" value="['alamat']"></textarea></td>
@@ -42,11 +47,19 @@
         <br></br>
     </tr>
         <button name="kirim">kirim</button>
+    </fieldset>
     </form>
     </body>
     </html>
-</body>
-</html>
+
+<center><style>
+    fieldset{
+        width: 500px; /* lebar */
+        border-color: ; /* warna garis tepi */
+        box-shadow: 2px 2px 4px #333; /* bayangan */
+    }
+</style>
+</center>
 
 
  
